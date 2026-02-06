@@ -1,0 +1,57 @@
+:root {
+  --bg: #050509;
+  --bg-elevated: #0b0b12;
+  --accent: #4f46e5;
+  --accent-soft: rgba(79, 70, 229, 0.12);
+  --text: #f9fafb;
+  --text-muted: #9ca3af;
+  --border-subtle: #1f2933;
+  --radius-lg: 14px;
+  --radius-full: 999px;
+  --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.55);
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  --hero-title-gradient: linear-gradient(135deg, #ffffff 0%, #c7d2fe 40%, #818cf8 100%);
+  --hero-title-gradient-light: linear-gradient(135deg, #1e293b 0%, #475569 40%, #6366f1 100%);
+  --btn-primary-bg: linear-gradient(135deg, #4f46e5, #7c3aed);
+  --btn-primary-bg-light: linear-gradient(135deg, #6366f1, #818cf8);
+  --btn-secondary-bg: rgba(255, 255, 255, 0.06);
+  --btn-secondary-bg-light: rgba(0, 0, 0, 0.06);
+  --hero-glow: radial-gradient(circle, rgba(79, 70, 229, 0.25), transparent 70%);
+  --hero-glow-light: radial-gradient(circle, rgba(99, 102, 241, 0.18), transparent 70%);
+  --bg-gradient: radial-gradient(circle at top, #111827 0, #020617 45%, #000 100%);
+}
+
+
+
+
+/* Light mode */
+[data-theme="light"] {
+  --bg: #f8fafc;
+  --bg-elevated: #ffffff;
+  --text: #0f172a;
+  --text-muted: #475569;
+  --accent: #4f46e5;
+  --hero-title-gradient: var(--hero-title-gradient-light);
+  --btn-primary-bg: var(--btn-primary-bg-light);
+  --btn-secondary-bg: var(--btn-secondary-bg-light);
+  --hero-glow: var(--hero-glow-light);
+  --bg-gradient: radial-gradient(circle at top, #ffffff 0, #f1f5f9 40%, #e2e8f0 100%);
+
+}
+
+
+/* Apply theme */
+/*body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+}*/
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.25s ease, color 0.25s ease;
+}

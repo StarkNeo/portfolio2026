@@ -1,0 +1,93 @@
+.contact {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.contactheading {
+  font-size: 2.4rem;
+  font-weight: 800;
+  /*background: linear-gradient(135deg, #ffffff, #c7d2fe);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin: 16px auto 48px;
+  max-width: 600px;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  
+}
+
+.field {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+label {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+input,
+textarea {
+  padding: 14px;
+  border-radius: var(--radius-lg);
+  /*border: 1px solid rgba(255, 255, 255, 0.12);*/
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 1rem;
+  outline: none;
+  transition: 0.18s ease;
+  border: 1px solid var(--border-subtle);
+  color: var(--text);
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgba(255, 255, 255, 0.25);
+  /*background: rgba(255, 255, 255, 0.07);*/
+  background: var(--bg-elevated);
+}
+
+textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.submitBtn {
+  padding: 14px 26px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.18s ease;
+}
+
+.submitBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(79, 70, 229, 0.6);
+}
+
+.directLinks {
+  margin-top: 40px;
+  color: var(--text-muted);
+}
+
+.directLinks a {
+  color: #818cf8;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 6px;
+}

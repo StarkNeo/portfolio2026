@@ -1,0 +1,77 @@
+{
+  "nav.home": "Inicio",
+  "nav.projects": "Proyectos",
+  "nav.services": "Servicios",
+  "nav.about": "Sobre mí",
+  "nav.contact": "Contacto",
+  "nav.cta": "Trabaja conmigo",
+
+  "hero.title": "Construyendo sistemas escalables con claridad y precisión.",
+  "hero.subtitle": "Arquitecto Técnico & Ingeniero de Sistemas de IA",
+  "hero.cta.primary": "Iniciar un proyecto",
+  "hero.cta.secondary": "Ver proyectos",
+
+  "services.heading": "Lo que hago",
+  "services.items": [
+    {
+      "title": "Arquitectura Backend",
+      "description": "Diseño sistemas backend modulares, escalables y seguros."
+    },
+    {
+      "title": "Automatización con IA",
+      "description": "Construyo flujos impulsados por IA que automatizan procesos de ingeniería."
+    },
+    {
+      "title": "Dashboards SaaS",
+      "description": "Creo dashboards premium con UX moderna y diseño limpio."
+    }
+  ],
+
+  "projects.heading": "Proyectos Destacados",
+  "projects.items": [
+    {
+      "title": "Automatización del SDLC con IA",
+      "description": "Un sistema que automatiza revisiones de código, documentación y pipelines de despliegue."
+    },
+    {
+      "title": "Sistema de Autenticación MFA",
+      "description": "Un flujo seguro de autenticación multifactor con tokens, QR y TOTP."
+    },
+    {
+      "title": "Plataforma de Dashboard SaaS",
+      "description": "Un dashboard modular con analíticas, gestión de usuarios y modo claro/oscuro."
+    }
+  ],
+
+  "about.heading": "Sobre Mí",
+  "about.text": "Soy un Arquitecto Técnico enfocado en construir sistemas escalables, automatización con IA y experiencias de usuario premium. Combino ingeniería backend, diseño frontend y pensamiento estratégico para entregar soluciones de alto impacto.",
+
+  "testimonials.heading": "Equipos que confían en mi trabajo",
+  "testimonials.items": [
+    {
+      "quote": "JESUS entregó una arquitectura escalable que transformó nuestro flujo de ingeniería.",
+      "author": "Daniel R.",
+      "role": "CTO, NovaTech"
+    },
+    {
+      "quote": "Su automatización con IA nos ahorró cientos de horas de ingeniería.",
+      "author": "María L.",
+      "role": "Engineering Manager, CloudWorks"
+    },
+    {
+      "quote": "El sistema de autenticación que diseñó es de nivel empresarial y está perfectamente documentado.",
+      "author": "Alex P.",
+      "role": "Lead Developer, Finexa"
+    }
+  ],
+
+  "contact.heading": "Trabajemos Juntos",
+  "contact.name": "Nombre",
+  "contact.email": "Correo",
+  "contact.message": "Mensaje",
+  "contact.submit": "Enviar mensaje",
+  "contact.success": "Mensaje enviado!",
+  "contact.error": "Algo salió mal.",
+
+  "footer.rights": "Todos los derechos reservados."
+}

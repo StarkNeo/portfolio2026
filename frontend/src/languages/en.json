@@ -1,0 +1,77 @@
+{
+  "nav.home": "Home",
+  "nav.projects": "Projects",
+  "nav.services": "Services",
+  "nav.about": "About",
+  "nav.contact": "Contact",
+  "nav.cta": "Work with me",
+
+  "hero.title": "Building scalable systems with clarity and precision.",
+  "hero.subtitle": "Technical Architect & AI Systems Engineer",
+  "hero.cta.primary": "Start a project",
+  "hero.cta.secondary": "View projects",
+
+  "services.heading": "What I do",
+  "services.items": [
+    {
+      "title": "Backend Architecture",
+      "description": "I design modular, scalable and secure backend systems."
+    },
+    {
+      "title": "AI Automation",
+      "description": "I build AI-powered workflows that automate engineering processes."
+    },
+    {
+      "title": "SaaS Dashboards",
+      "description": "I create premium dashboards with modern UX and clean design."
+    }
+  ],
+
+  "projects.heading": "Featured Projects",
+  "projects.items": [
+    {
+      "title": "AI SDLC Automation",
+      "description": "A system that automates code reviews, documentation and deployment pipelines."
+    },
+    {
+      "title": "MFA Authentication System",
+      "description": "A secure multi-factor authentication flow with tokens, QR codes and TOTP."
+    },
+    {
+      "title": "SaaS Dashboard Platform",
+      "description": "A modular dashboard with analytics, user management and dark/light mode."
+    }
+  ],
+
+  "about.heading": "About Me",
+  "about.text": "I am a Technical Architect focused on building scalable systems, AI automation and premium user experiences. I combine backend engineering, frontend design and strategic thinking to deliver high-impact solutions.",
+
+  "testimonials.heading": "Trusted by teams building at scale",
+  "testimonials.items": [
+    {
+      "quote": "JESUS delivered a scalable architecture that transformed our engineering workflow.",
+      "author": "Daniel R.",
+      "role": "CTO, NovaTech"
+    },
+    {
+      "quote": "His AI-powered automation saved us hundreds of engineering hours.",
+      "author": "María L.",
+      "role": "Engineering Manager, CloudWorks"
+    },
+    {
+      "quote": "The authentication system he designed is enterprise-grade and perfectly documented.",
+      "author": "Alex P.",
+      "role": "Lead Developer, Finexa"
+    }
+  ],
+
+  "contact.heading": "Let's Work Together",
+  "contact.name": "Name",
+  "contact.email": "Email",
+  "contact.message": "Message",
+  "contact.submit": "Send message",
+  "contact.success": "Message sent!",
+  "contact.error": "Something went wrong.",
+
+  "footer.rights": "All rights reserved."
+}
