@@ -1,0 +1,21 @@
+{
+  "intents": [
+    {
+      "keywords": ["backend", "arquitectura", "sistema", "api"],
+      "answer": "Diseño arquitecturas backend modulares, escalables y seguras usando patrones modernos y principios de ingeniería limpia."
+    },
+    {
+      "keywords": ["ia", "automatización", "agentes"],
+      "answer": "Construyo sistemas de automatización impulsados por IA que optimizan flujos de ingeniería y reducen trabajo manual."
+    },
+    {
+      "keywords": ["dashboard", "saas", "frontend", "ui"],
+      "answer": "Creo dashboards SaaS premium con UX moderna, diseño limpio y soporte para múltiples idiomas."
+    },
+    {
+      "keywords": ["contacto", "contratar", "trabajar"],
+      "answer": "Puedes contactarme mediante el formulario. Normalmente respondo en menos de 24 horas."
+    }
+  ],
+  "fallback": "Aún no estoy seguro sobre eso, pero puedo ayudarte con arquitectura backend, automatización con IA o dashboards SaaS."
+}

@@ -1,27 +1,32 @@
+import { useContext } from 'react';
+import { LanguageContext } from '../../context/LanguageContext';
 import './hero.css';
 import { Link } from "react-router-dom";
 
 export default function Hero() {
+  const { translations } = useContext(LanguageContext);
+
   return (
     <section className="hero">
       <div className="content">
-        <h1 className="title">
-          Technical Architect & AI Systems Engineer
+        <h1 className="title">{translations("hero.title")}
         </h1>
 
         <p className="subtitle">
-          I design modular, scalable, and production‑grade systems that automate
-          and optimize the entire SDLC. From backend architecture to AI‑powered
-          engineering workflows, I help companies ship faster and smarter.
+          {translations("hero.subtitle")}
+          
         </p>
 
         <div className="actions">
           <Link to="/contact" className="primaryBtn">
-            Work with me
+          {translations("hero.cta.primary")}
+
+           
           </Link>
 
           <Link to="/projects" className="secondaryBtn">
-            View projects
+          {translations("hero.cta.secondary")}
+            
           </Link>
         </div>
       </div>

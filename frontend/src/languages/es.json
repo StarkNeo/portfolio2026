@@ -5,47 +5,69 @@
   "nav.about": "Sobre mí",
   "nav.contact": "Contacto",
   "nav.cta": "Trabaja conmigo",
-
-  "hero.title": "Construyendo sistemas escalables con claridad y precisión.",
-  "hero.subtitle": "Arquitecto Técnico & Ingeniero de Sistemas de IA",
+  "hero.title": "Ingeniero Full Stack y de Sistemas de IA",
+  "hero.subtitle": "Construyendo sistemas escalables con claridad y precisión.",
   "hero.cta.primary": "Iniciar un proyecto",
   "hero.cta.secondary": "Ver proyectos",
-
   "services.heading": "Lo que hago",
+  "services.subheading": "Ayudo a las empresas a construir sistemas de ingeniería confiables, escalables y automatizados.",
   "services.items": [
     {
-      "title": "Arquitectura Backend",
-      "description": "Diseño sistemas backend modulares, escalables y seguros."
+      "title": "Arquitectura Backend y Sistemas Modulares",
+      "description": "Construyo arquitecturas backend escalables y listas para producción, con una separación clara de responsabilidades, autenticación segura y manejo robusto de errores."
     },
     {
       "title": "Automatización con IA",
-      "description": "Construyo flujos impulsados por IA que automatizan procesos de ingeniería."
+      "description": "Desarrollo flujos de trabajo impulsados por IA que automatizan procesos de ingeniería."
     },
     {
       "title": "Dashboards SaaS",
-      "description": "Creo dashboards premium con UX moderna y diseño limpio."
+      "description": "Creo dashboards premium con UX moderno y diseño limpio."
+    },
+    {
+      "title": "Autenticación e Ingeniería de Seguridad",
+      "description": "Desde MFA y flujos OAuth hasta la gestión segura de sesiones y auditoría, diseño sistemas de autenticación que son fluidos y de nivel empresarial."
+    },
+    {
+      "title": "UX Frontend para Dashboards de Negocio",
+      "description": "Creo dashboards modernos e intuitivos inspirados en las mejores plataformas SaaS: UI limpia, interacciones fluidas y una experiencia de usuario premium."
+    },
+    {
+      "title": "Arquitecturas de IA para Automatización de Ingeniería",
+      "description": "Diseño flujos de trabajo de ingeniería inteligentes que automatizan revisiones de código, testing, documentación y despliegue. Reduce el tiempo de ciclo y lanza más rápido con sistemas confiables impulsados por IA."
     }
   ],
-
   "projects.heading": "Proyectos Destacados",
+  "projects.subheading": "Sistemas reales que he diseñado para resolver problemas empresariales reales.",
   "projects.items": [
     {
       "title": "Automatización del SDLC con IA",
-      "description": "Un sistema que automatiza revisiones de código, documentación y pipelines de despliegue."
+      "description": "Un sistema que automatiza revisiones de código, documentación y pipelines de despliegue.",
+      "tags": ["IA", "Automatización", "SDLC", "DevOps"],
+      "link": "/projects/ai-sdlc-automation"
     },
     {
       "title": "Sistema de Autenticación MFA",
-      "description": "Un flujo seguro de autenticación multifactor con tokens, QR y TOTP."
+      "description": "Un flujo seguro de autenticación multifactor con tokens, QR y TOTP.",
+      "tags": ["Autenticación", "MFA", "Seguridad", "Backend"],
+      "link": "/projects/mfa-authentication-system"
     },
     {
       "title": "Plataforma de Dashboard SaaS",
-      "description": "Un dashboard modular con analíticas, gestión de usuarios y modo claro/oscuro."
+      "description": "Un dashboard modular con analíticas, gestión de usuarios y modo claro/oscuro.",
+      "tags": ["Dashboard", "React", "UX", "APIs", "Diseño"],
+      "link": "/projects/saas-dashboard-platform"
     }
   ],
-
+  "projects.linkText": "Ver caso de estudio",
   "about.heading": "Sobre Mí",
   "about.text": "Soy un Arquitecto Técnico enfocado en construir sistemas escalables, automatización con IA y experiencias de usuario premium. Combino ingeniería backend, diseño frontend y pensamiento estratégico para entregar soluciones de alto impacto.",
-
+  "about.approach": "Mi Enfoque",
+  "about.approachText": "Combino arquitectura backend, automatización con IA y UX limpia para construir sistemas que sean confiables, mantenibles y preparados para el futuro. Mi trabajo se enfoca en ayudar a las empresas a entregar más rápido y mejor diseñando soluciones modulares, escalables y de nivel de producción que automatizan y optimizan todo el ciclo de vida del desarrollo de software.",
+  "about.drives": "Qué Me Impulsa",
+  "about.drivesText": "Me impulsan los desafíos de diseñar sistemas que resuelvan problemas complejos y generen un impacto real. Soy apasionado por aprovechar la IA para automatizar y optimizar flujos de trabajo de ingeniería, y me comprometo a entregar soluciones que no solo sean funcionales sino también elegantes y fáciles de usar.",
+  "about.howIWork": "Cómo Trabajo",
+  "about.howIWorkText": "Tomo un enfoque colaborativo en cada proyecto, trabajando estrechamente con los interesados para entender sus necesidades y objetivos. Creo en el poder del diseño modular y la arquitectura limpia para crear sistemas escalables, mantenibles y preparados para el futuro. Siempre busco formas de aprovechar la IA para automatizar y optimizar procesos, y me comprometo a entregar soluciones que sean tanto efectivas como fáciles de usar.",
   "testimonials.heading": "Equipos que confían en mi trabajo",
   "testimonials.items": [
     {
@@ -64,7 +86,8 @@
       "role": "Lead Developer, Finexa"
     }
   ],
-
+  "readyToStart.heading": "Construyamos algo genial juntos",
+  "readToStart.button": "Iniciar un proyecto",
   "contact.heading": "Trabajemos Juntos",
   "contact.name": "Nombre",
   "contact.email": "Correo",
@@ -72,6 +95,5 @@
   "contact.submit": "Enviar mensaje",
   "contact.success": "Mensaje enviado!",
   "contact.error": "Algo salió mal.",
-
   "footer.rights": "Todos los derechos reservados."
 }

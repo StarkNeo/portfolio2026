@@ -6,16 +6,17 @@
   "nav.contact": "Contact",
   "nav.cta": "Work with me",
 
-  "hero.title": "Building scalable systems with clarity and precision.",
-  "hero.subtitle": "Technical Architect & AI Systems Engineer",
-  "hero.cta.primary": "Start a project",
+  "hero.title": "Full Stack & AI Systems Engineer",
+  "hero.subtitle": "I design modular, scalable, and production‑grade systems that automate and optimize the entire SDLC. From backend architecture to AI‑powered engineering workflows, I help companies ship faster and smarter.",
+  "hero.cta.primary": "Work with me",
   "hero.cta.secondary": "View projects",
 
-  "services.heading": "What I do",
+  "services.heading": "What I Do",
+  "services.subheading": "I help companies build reliable, scalable, and automated engineering systems.",
   "services.items": [
     {
-      "title": "Backend Architecture",
-      "description": "I design modular, scalable and secure backend systems."
+      "title": "Backend Architecture & Modular Systems",
+      "description": "I build scalable, production‑grade backend architectures with clean separation of concerns, secure authentication, and robust error handling."
     },
     {
       "title": "AI Automation",
@@ -24,27 +25,53 @@
     {
       "title": "SaaS Dashboards",
       "description": "I create premium dashboards with modern UX and clean design."
+    },
+    {
+      "title": "Authentication & Security Engineering",
+      "description": "From MFA and OAuth flows to secure session management and auditing, I design authentication systems that are both seamless and enterprise‑grade."
+    },
+    {
+      "title": "Frontend UX for Business Dashboards",
+      "description": "I create modern, intuitive dashboards inspired by top SaaS platforms—clean UI, smooth interactions, and a premium user experience."
+    },
+    {
+      "title": "AI Architectures for Engineering Automation",
+      "description": "I design intelligent engineering workflows that automate code reviews, testing, documentation, and deployment. Reduce cycle time and ship faster with reliable AI‑driven systems."
     }
+
   ],
 
   "projects.heading": "Featured Projects",
+  "projects.subheading": "Real systems I've designed to solve real business problems.",
   "projects.items": [
     {
       "title": "AI SDLC Automation",
-      "description": "A system that automates code reviews, documentation and deployment pipelines."
+      "description": "A system that automates code reviews, documentation and deployment pipelines.",
+      "tags": ["AI", "Automation", "SDLC", "DevOps"],
+      "link": "/projects/ai-sdlc-automation"
     },
     {
       "title": "MFA Authentication System",
-      "description": "A secure multi-factor authentication flow with tokens, QR codes and TOTP."
+      "description": "A secure multi-factor authentication flow with tokens, QR codes and TOTP.",
+      "tags": ["Authentication", "MFA", "Security", "Backend"],
+      "link": "/projects/mfa-authentication-system"
     },
     {
       "title": "SaaS Dashboard Platform",
-      "description": "A modular dashboard with analytics, user management and dark/light mode."
+      "description": "A modular dashboard with analytics, user management and dark/light mode.",
+      "tags": ["Dashboard", "React", "UX", "APIs", "Design"],
+      "link": "/projects/saas-dashboard-platform"
     }
   ],
-
+  "projects.linkText": "View case study",
   "about.heading": "About Me",
   "about.text": "I am a Technical Architect focused on building scalable systems, AI automation and premium user experiences. I combine backend engineering, frontend design and strategic thinking to deliver high-impact solutions.",
+  "about.approach": "My Approach",
+  "about.approachText": "I combine backend architecture, AI automation, and clean UX to build systems that are reliable, maintainable, and future‑proof. My work is focused on helping companies ship faster and smarter by designing modular, scalable, and production‑grade solutions that automate and optimize the entire software development lifecycle.",
+  "about.drives": "What Drives Me",
+  "about.drivesText": "I am driven by the challenge of designing systems that solve complex problems and make a real impact. I am passionate about leveraging AI to automate and optimize engineering workflows, and I am committed to delivering solutions that are not only functional but also elegant and user-friendly.",
+  "about.howIWork": "How I Work",
+  "about.howIWorkText": "I take a collaborative approach to every project, working closely with stakeholders to understand their needs and goals. I believe in the power of modular design and clean architecture to create systems that are scalable, maintainable, and future-proof. I am always looking for ways to leverage AI to automate and optimize processes, and I am committed to delivering solutions that are both effective and user-friendly.",
 
   "testimonials.heading": "Trusted by teams building at scale",
   "testimonials.items": [
@@ -64,7 +91,8 @@
       "role": "Lead Developer, Finexa"
     }
   ],
-
+  "readyToStart.heading": "Let's Build Something Great Together",
+  "readToStart.button": "Start a Project",
   "contact.heading": "Let's Work Together",
   "contact.name": "Name",
   "contact.email": "Email",
@@ -73,5 +101,9 @@
   "contact.success": "Message sent!",
   "contact.error": "Something went wrong.",
 
-  "footer.rights": "All rights reserved."
+  "footer.rights": "All rights reserved.",
+  "footer.contact": "Contact",
+  "footer.github": "GitHub",
+  "footer.linkedin": "LinkedIn",
+  "footer.email": "Email"
 }

@@ -1,25 +1,28 @@
-//import styles from "./Footer.module.css";
+import { useContext } from 'react';
+import { LanguageContext } from '../../context/LanguageContext';
 import './footer.css';
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+  const { translations } = useContext(LanguageContext);
+
   return (
     <footer className="footer">
       <div className="inner">
         <div className="brand">
           <span className="logo">JESUS.dev</span>
           <p className="tagline">
-            Technical Architect & AI Systems Engineer
+            Software Engineer specializing in scalable systems and AI‑powered engineering.
           </p>
         </div>
 
         <div className="columns">
           <div className="column">
             <h4 className="columnTitle">Navigate</h4>
-            <Link to="/" className="link">Home</Link>
-            <Link to="/projects" className="link">Projects</Link>
-            <Link to="/about" className="link">About</Link>
-            <Link to="/contact" className="link">Contact</Link>
+            <Link to="/" className="link">{translations("nav.home")}</Link>
+            <Link to="/projects" className="link">{translations("nav.projects")}</Link>
+            <Link to="/about" className="link">{translations("nav.about")}</Link>
+            <Link to="/contact" className="link">{translations("nav.contact")}</Link>
           </div>
 
           <div className="column">
@@ -30,7 +33,7 @@ export default function Footer() {
               rel="noreferrer"
               className="link"
             >
-              GitHub
+              {translations("footer.github") || "GitHub"}
             </a>
             <a
               href="https://www.linkedin.com/in/your-linkedin"
@@ -38,13 +41,13 @@ export default function Footer() {
               rel="noreferrer"
               className="link"
             >
-              LinkedIn
+              {translations("footer.linkedin") || "LinkedIn"}
             </a>
             <a
               href="mailto:your-email@example.com"
               className="link"
             >
-              Email
+              {translations("footer.email") || "Email"}
             </a>
           </div>
         </div>

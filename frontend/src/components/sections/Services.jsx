@@ -1,34 +1,25 @@
+import { useContext, useState, useEffect, use } from 'react';
+import { LanguageContext } from '../../context/LanguageContext';
 import './services.css';
 
 export default function Services() {
-  const services = [
-    {
-      title: "AI‑Powered SDLC Automation",
-      description:
-        "I design intelligent engineering workflows that automate code reviews, testing, documentation, and deployment. Reduce cycle time and ship faster with reliable AI‑driven systems.",
-    },
-    {
-      title: "Backend Architecture & Modular Systems",
-      description:
-        "I build scalable, production‑grade backend architectures with clean separation of concerns, secure authentication, and robust error handling.",
-    },
-    {
-      title: "Authentication & Security Engineering",
-      description:
-        "From MFA and OAuth flows to secure session management and auditing, I design authentication systems that are both seamless and enterprise‑grade.",
-    },
-    {
-      title: "Frontend UX for Business Dashboards",
-      description:
-        "I create modern, intuitive dashboards inspired by top SaaS platforms—clean UI, smooth interactions, and a premium user experience.",
-    },
-  ];
+  const [services, setServices] = useState([]);
+  const { translations } = useContext(LanguageContext);
+  
+  useEffect(() => {
+    const items = translations("services.items");
+    if (items && Array.isArray(items)) {
+      setServices(items);
+    }
+  }, [services, translations]);
+
+
 
   return (
     <section className="services">
-      <h2 className="heading">What I Do</h2>
+      <h2 className="heading">{translations("services.heading")}</h2>
       <p className="servicesSubheading">
-        I help companies build reliable, scalable, and automated engineering systems.
+        {translations("services.subheading")}
       </p>
 
       <div className="grid">
